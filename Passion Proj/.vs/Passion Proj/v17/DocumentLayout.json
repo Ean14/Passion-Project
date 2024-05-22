@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\",
+  "WorkspaceRootPath": "C:\\Users\\1206046\\Documents\\GitHub\\Passion-Project\\Passion Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1218190\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\obj\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obj\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1206046\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\obj\\held notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obj\\held notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1206046\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\ui\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Obj\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Obj\\Player.cs",
-              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Obj\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Obj\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Title": "Held Notes.cs",
+              "DocumentMoniker": "C:\\Users\\1206046\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Obj\\Held Notes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obj\\Held Notes.cs",
+              "ToolTip": "C:\\Users\\1206046\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Obj\\Held Notes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obj\\Held Notes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:20:25.694Z",
+              "WhenOpened": "2024-05-22T17:19:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quit.cs",
+              "DocumentMoniker": "C:\\Users\\1206046\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\Quit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Quit.cs",
+              "ToolTip": "C:\\Users\\1206046\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\Quit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Quit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:14:53.256Z",
               "EditorCaption": ""
             }
           ]
