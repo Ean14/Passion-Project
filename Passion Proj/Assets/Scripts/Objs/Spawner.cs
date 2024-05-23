@@ -115,6 +115,27 @@ public class Spawner : MonoBehaviour
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene("GameOver");
     }
+
+    IEnumerator spawnHeld(float[] spawnTimes)
+    {
+        for (int i = 0; i < spawnTimes.Length; i++)
+        {
+            yield return new WaitUntil(() => (float)Time.timeSinceLevelLoadAsDouble >= spawnTimes[i]);
+            //Debug.Log(spawnTimes[i]);
+
+            for (int j = i; j < spawnTimes.Length; j++)
+            {
+                if (spawnTimes[j] < (float)Time.timeSinceLevelLoadAsDouble + 3.0f)
+                { bloom += 0.025f; }
+                else
+                { break; }
+            }
+            //Debug.Log(bloom);
+            spawnPos = new Vector3(Random.Range(-1.4f - bloom, 1.4f + bloom), Random.Range(-1.4f - bloom, 1.4f + bloom), 0.0f);
+            Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            bloom = 0;
+        }
+    }
 }
 //enter ="'"&J2&"'"&"," in a random cell in excel after importing Edit Index to add single quotes (remember to CTRL+H to replace with double quotes) and a comma at the end
 //https://replit.com/@Bevern/Convert-TimeFrames-to-Seconds#Main.java For converting frames in Davinci resolve to seconds in Unity :)
