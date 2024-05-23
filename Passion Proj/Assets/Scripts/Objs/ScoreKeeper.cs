@@ -60,7 +60,7 @@ public class ScoreKeeper : MonoBehaviour
         {
             comboText.text = "";
         }
-        if (bloom > 0f)
+        if (bloom > 0f && Pause.isPaused==false)
         {
             bloom -= (0.02f/60f);
             //Debug.Log(bloom);

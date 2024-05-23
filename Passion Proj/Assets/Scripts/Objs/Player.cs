@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Pause.isPaused = false;
         //Mouse Lock
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -31,11 +32,14 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mouseLook();
-        shoot();
-        //showText();
-
-
+        if (!Pause.isPaused)
+        {
+            mouseLook();
+            shoot();
+            //showText();
+        }
+        
+        
     }
     private void showText()
     {
@@ -45,7 +49,7 @@ public class Player : MonoBehaviour
     private void shoot()
     {
         //Mouse input
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
             Ray ray = new Ray();
             ray.origin = GameObject.FindGameObjectWithTag("Player").transform.position;
@@ -59,7 +63,8 @@ public class Player : MonoBehaviour
                 if (hit.transform.tag == "Target")
                 {
                     shotsHit++;
-                    //Debug.Log("I'm destroying the Target");
+                    Debug.Log("I'm destroying the Target");
+                    Target.manualDestroy();
                     GameObject targetHit = hit.collider.gameObject;
                     GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x+0.15f, targetHit.transform.position.y+0.005f), Quaternion.identity);
                 }
@@ -67,29 +72,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void hold()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            Ray ray = new Ray();
-            ray.origin = GameObject.FindGameObjectWithTag("Player").transform.position;
-            ray.direction = GameObject.FindGameObjectWithTag("Player").transform.forward;
-            //Debug.DrawRay(ray.origin, ray.direction * 75f, Color.red, 3f);
-            RaycastHit hit;
-            shotsFired++;
-            if (Physics.Raycast(ray, out hit, 75.0f))
-            {
-                if (hit.transform.tag == "heldTarget")
-                {
-                   while(Input.GetMouseButtonDown(1) && GameObject.FindGameObjectWithTag("heldTarget") != null)
-                    {
-                        //score++;
-                    }
-
-                }
-            }
-        }
-    }
     private void mouseLook()
     {
         //Mouse Look

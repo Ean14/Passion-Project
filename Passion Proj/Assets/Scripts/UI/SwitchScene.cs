@@ -14,6 +14,7 @@ public class SwitchScene : MonoBehaviour
     public AudioClip press;
     void Start()
     {
+        source = GameObject.FindGameObjectWithTag("Background").GetComponent<AudioSource>();
         Button btn = playButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
@@ -22,6 +23,7 @@ public class SwitchScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
         source.PlayOneShot(press);
+        ScoreKeeper.combo = 0;
     }
     void OnMouseOver()
     {
