@@ -8,11 +8,13 @@ public class playMusic : MonoBehaviour
 {
     //Video
     public VideoClip RandomVid;
+    public VideoClip CirclesVid;
     //Players
     private AudioSource audioSource;
     private VideoPlayer vidPlayer;
     //Textures
     public RenderTexture RandomTexture;
+    public RenderTexture CirclesTexture;
     //Other Objects
     public GameObject VideoPlayerParent;
     //Other Scripts
@@ -27,10 +29,10 @@ public class playMusic : MonoBehaviour
     {
         yield return new WaitForSeconds(0.00f);
         //Initiallizing dictionaries
-        string[] songNames = {"Random by Random"};
-        VideoClip[] videos = {RandomVid};
+        string[] songNames = {"Random by Random", "Circles by EDEN"};
+        VideoClip[] videos = {RandomVid, CirclesVid};
 
-        RenderTexture[] textures = {RandomTexture};
+        RenderTexture[] textures = {RandomTexture, CirclesTexture};
 
         Dictionary<string, VideoClip> songVid = new Dictionary<string, VideoClip>();
         Dictionary<string, RenderTexture> songText = new Dictionary<string, RenderTexture>();
@@ -45,9 +47,9 @@ public class playMusic : MonoBehaviour
         */
         // For some reason, a for loop to add key/values doesn't work, perhaps cuz im adding in different orders in different scripts?
         songVid.Add("Random", RandomVid);
-
+        songVid.Add("Circles by EDEN", CirclesVid);
         songText.Add("Random", RandomTexture);
-        
+        songText.Add("Circles by EDEN", CirclesTexture);
         vidPlayer = GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>();
         yield return new WaitForSeconds(3);
         vidPlayer.clip = songVid[SongSelect2.theSong];

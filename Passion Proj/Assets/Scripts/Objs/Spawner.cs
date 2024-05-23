@@ -41,7 +41,7 @@ public class Spawner : MonoBehaviour
         StartCoroutine(countdown());
         //songTimes = new Dictionary<string, float[]>();
         songTimes.Clear();
-        string[] songNames = {"Random By Random"};
+        string[] songNames = {"Random By Random", "Circles by EDEN"};
         /*
         for (int i = 0;i<songNames.Length;i++)
         {
@@ -50,6 +50,7 @@ public class Spawner : MonoBehaviour
         */
 
         songTimes.Add("Random by Random", new float[] { 1 });
+        songTimes.Add("Circles by EDEN", new float[] {1});
         StartCoroutine(spawnCounter(songTimes[SongSelect2.theSong]));
     }
 

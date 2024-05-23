@@ -14,7 +14,6 @@ public class SwitchScene : MonoBehaviour
     public AudioClip press;
     void Start()
     {
-        source = GameObject.FindGameObjectWithTag("Background").GetComponent<AudioSource>();
         Button btn = playButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
