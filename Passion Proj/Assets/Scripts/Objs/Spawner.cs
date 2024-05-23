@@ -109,7 +109,7 @@ public class Spawner : MonoBehaviour
             }
             //Debug.Log(bloom);
             spawnPos = new Vector3(Random.Range(-1.4f - bloom, 1.4f + bloom), Random.Range(-1.4f - bloom, 1.4f + bloom), 0.0f);
-            Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            GameObject target = Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
             bloom = 0;
         }
         yield return new WaitForSeconds(5);
@@ -132,7 +132,8 @@ public class Spawner : MonoBehaviour
             }
             //Debug.Log(bloom);
             spawnPos = new Vector3(Random.Range(-1.4f - bloom, 1.4f + bloom), Random.Range(-1.4f - bloom, 1.4f + bloom), 0.0f);
-            Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            GameObject heldTarget = Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            //heldTarget.
             bloom = 0;
         }
     }

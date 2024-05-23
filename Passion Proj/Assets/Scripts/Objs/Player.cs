@@ -84,11 +84,11 @@ public class Player : MonoBehaviour
             shotsFired++;
             if (Physics.Raycast(ray, out hit, 75.0f))
             {
-                if (hit.transform.tag == "heldTarget")
+                if (hit.transform.tag == "HeldTarget")
                 {
-                    while (Input.GetMouseButtonDown(1) && GameObject.FindGameObjectWithTag("heldTarget") != null)
+                    while (Input.GetMouseButtonDown(1) && GameObject.FindGameObjectWithTag("HeldTarget") != null)
                     {
-                        //score++;
+                        ScoreKeeper.score += 30;
                     }
 
                 }
