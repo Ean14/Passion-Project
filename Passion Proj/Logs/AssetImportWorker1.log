@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Education' Language: 'en' Physical Memory: 7880 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32614 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
+E:\Unity\2022.3.28f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/1206046/Documents/GitHub/Passion-Project/Passion Proj
+E:/Github/RhythmGame/Passion-Project/Passion Proj
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60567
-Successfully changed project path to: C:/Users/1206046/Documents/GitHub/Passion-Project/Passion Proj
-C:/Users/1206046/Documents/GitHub/Passion-Project/Passion Proj
+50273
+Successfully changed project path to: E:/Github/RhythmGame/Passion-Project/Passion Proj
+E:/Github/RhythmGame/Passion-Project/Passion Proj
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/1206046/Documents/GitHub/Passion-Project/Passion Proj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18412] Host "[IP] 10.32.193.40 [Port] 0 [Flags] 2 [Guid] 1641466117 [EditorId] 1641466117 [Version] 1048832 [Id] WindowsEditor(7,PG-219-C24B1V3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21184] Host "[IP] 192.168.1.97 [Port] 0 [Flags] 2 [Guid] 2396642135 [EditorId] 2396642135 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7LC4OF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18412] Host "[IP] 10.32.193.40 [Port] 0 [Flags] 2 [Guid] 1641466117 [EditorId] 1641466117 [Version] 1048832 [Id] WindowsEditor(7,PG-219-C24B1V3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21184] Host "[IP] 192.168.1.97 [Port] 0 [Flags] 2 [Guid] 2396642135 [EditorId] 2396642135 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7LC4OF0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 54.13 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/1206046/Documents/GitHub/Passion-Project/Passion Proj/Assets
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Github/RhythmGame/Passion-Project/Passion Proj/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 770 (ID=0x4690)
-    Vendor:   Intel
-    VRAM:     3940 MB
-    Driver:   31.0.101.4953
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     7987 MB
+    Driver:   31.0.15.5161
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Mono path[0] = 'E:/Unity/2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009950 seconds.
-- Loaded All Assemblies, in  0.416 seconds
+Register platform support module: E:/Unity/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005579 seconds.
+- Loaded All Assemblies, in  0.424 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.265 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 760ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (162ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (130ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (175ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (265ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,9 +117,8 @@ Domain Reload Profiling: 680ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.069 seconds
-Refreshing native plugins compatible for Editor in 43.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,51 +126,50 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.803 seconds
-Domain Reload Profiling: 1869ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (753ms)
-		LoadAssemblies (689ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (339ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (803ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (701ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (652ms)
+		SetupLoadedEditorAssemblies (497ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (378ms)
-			ProcessInitializeOnLoadMethodAttributes (189ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 33.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4284 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (75.7 KB). Loaded Objects now: 4718.
-Memory consumption went from 151.8 MB to 151.7 MB.
-Total: 6.674500 ms (FindLiveObjects: 0.353800 ms CreateObjectMapping: 0.241400 ms MarkObjects: 5.796700 ms  DeleteObjects: 0.281200 ms)
+Unloading 3196 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.8 MB). Loaded Objects now: 3648.
+Memory consumption went from 139.1 MB to 137.3 MB.
+Total: 4.075600 ms (FindLiveObjects: 0.340500 ms CreateObjectMapping: 0.266100 ms MarkObjects: 3.115700 ms  DeleteObjects: 0.352300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -183,3 +181,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 360.234211 seconds.
+  path: Assets/Music/Finished/EDEN_-_circles_official_audio_(getmp3.pro).mp3
+  artifactKey: Guid(8ad5d1eff1346404689a99f5e9659030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/EDEN_-_circles_official_audio_(getmp3.pro).mp3 using Guid(8ad5d1eff1346404689a99f5e9659030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b286b1fc041f0f851f63743499cb7013') in 0.901938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Music/Finished/Sabai - Million Days (Official Lyric Video) ft. Hoang & Claire Ridgely.mp3
+  artifactKey: Guid(d5b20ad8706e9d447aaf3015f515e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/Sabai - Million Days (Official Lyric Video) ft. Hoang & Claire Ridgely.mp3 using Guid(d5b20ad8706e9d447aaf3015f515e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf612f5321d02de18e5cb179525adbc8') in 0.423075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Music/Finished/Rival, Cadmium, Harley Bird - Seasons - Futuristik & Whogaux Remix.mp3
+  artifactKey: Guid(f301a7c2810d29a439a5723a357721eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/Rival, Cadmium, Harley Bird - Seasons - Futuristik & Whogaux Remix.mp3 using Guid(f301a7c2810d29a439a5723a357721eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7598689a45825d3e5c6eca5fca3fd587') in 0.650684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Music/Finished/Seasons Kita Sora.mp3
+  artifactKey: Guid(8ab2c18d0852f124c8891b952acc5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/Seasons Kita Sora.mp3 using Guid(8ab2c18d0852f124c8891b952acc5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbce2add3c5a201d83e2a1476346cae') in 0.497545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Music/Finished/Seasons FMM.mp3
+  artifactKey: Guid(c7d2ccf953d77804388218308c974e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/Seasons FMM.mp3 using Guid(c7d2ccf953d77804388218308c974e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8630a3b8c7a1c30d73f66b2d502648c') in 0.478371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Music/Finished/Vosai_Facading_-_Crossed_The_Line_(getmp3.pro).mp3
+  artifactKey: Guid(8af4824d00d6ea746bf349d84334ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music/Finished/Vosai_Facading_-_Crossed_The_Line_(getmp3.pro).mp3 using Guid(8af4824d00d6ea746bf349d84334ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.007571 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/music/finished/vosai_facading_-_crossed_the_line_(getmp3.pro).mp3 in SourceAssetDB has modification time of '2022-12-03T01:42:50Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff7024a8e5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7024adf29 (Unity) StackWalker::ShowCallstack
+0x00007ff703492a21 (Unity) GetStacktrace
+0x00007ff703828a23 (Unity) GetAssetHashAndValidate
+0x00007ff70382362c (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff7038214b2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff7037a520c (Unity) CreateAssetVersionBuilder
+0x00007ff7037ac066 (Unity) ImportToObjects
+0x00007ff7037aaecc (Unity) ImportAsset
+0x00007ff7037cfaf8 (Unity) AssetImportWorker::Import
+0x00007ff703837552 (Unity) <lambda_183697078dc22ecb201e4599e9982eaf>::operator()
+0x00007ff703873da2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff70385fd4e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7038619b4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff70387214c (Unity) IOService::Run
+0x00007ff703845caf (Unity) AssetImportWorkerClient::Run
+0x00007ff703810b97 (Unity) RunAssetImportWorkerClientV2
+0x00007ff703810c1b (Unity) RunAssetImporterV2
+0x00007ff703010871 (Unity) Application::InitializeProject
+0x00007ff70349d205 (Unity) WinMain
+0x00007ff704880aae (Unity) __scrt_common_main_seh
+0x00007fffde467344 (KERNEL32) BaseThreadInitThunk
+0x00007fffdeec26b1 (ntdll) RtlUserThreadStart
+
+  ERROR: Build asset version error: assets/music/finished/vosai_facading_-_crossed_the_line_(getmp3.pro).mp3 in SourceAssetDB has modification time of '2022-12-03T01:42:50Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff7024a8e5d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff7024adf29 (Unity) StackWalker::ShowCallstack
+0x00007ff703492a21 (Unity) GetStacktrace
+0x00007ff703828a23 (Unity) GetAssetHashAndValidate
+0x00007ff70382362c (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff7038214b2 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff7037a520c (Unity) CreateAssetVersionBuilder
+0x00007ff7037ac066 (Unity) ImportToObjects
+0x00007ff7037aaecc (Unity) ImportAsset
+0x00007ff7037cfaf8 (Unity) AssetImportWorker::Import
+0x00007ff703837552 (Unity) <lambda_183697078dc22ecb201e4599e9982eaf>::operator()
+0x00007ff703873da2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff70385fd4e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7038619b4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff70387214c (Unity) IOService::Run
+0x00007ff703845caf (Unity) AssetImportWorkerClient::Run
+0x00007ff703810b97 (Unity) RunAssetImportWorkerClientV2
+0x00007ff703810c1b (Unity) RunAssetImporterV2
+0x00007ff703010871 (Unity) Application::InitializeProject
+0x00007ff70349d205 (Unity) WinMain
+0x00007ff704880aae (Unity) __scrt_common_main_seh
+0x00007fffde467344 (KERNEL32) BaseThreadInitThunk
+0x00007fffdeec26b1 (ntdll) RtlUserThreadStart
+
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.057113 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(9118a21562e64414698b2f4c6ada2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(9118a21562e64414698b2f4c6ada2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485d58f2fd90b47c7cadd28a01272394') in 0.035999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

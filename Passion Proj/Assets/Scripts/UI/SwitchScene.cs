@@ -14,7 +14,7 @@ public class SwitchScene : MonoBehaviour
     public AudioClip press;
     void Start()
     {
-        //source = GameObject.FindGameObjectWithTag("Background").GetComponent<AudioSource>();
+        source = GameObject.FindGameObjectWithTag("Background").GetComponent<AudioSource>();
         Button btn = playButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
     }
@@ -22,11 +22,11 @@ public class SwitchScene : MonoBehaviour
     void TaskOnClick()
     {
         SceneManager.LoadScene(sceneName);
-        //source.PlayOneShot(press);
+        source.PlayOneShot(press);
     }
     void OnMouseOver()
     {
         //If your mouse hovers over the GameObject with the script attached, output this message
-        //source.PlayOneShot(hover);
+        source.PlayOneShot(hover);
     }
 }
