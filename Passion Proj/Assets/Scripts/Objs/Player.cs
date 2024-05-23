@@ -72,6 +72,30 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void hold()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            Ray ray = new Ray();
+            ray.origin = GameObject.FindGameObjectWithTag("Player").transform.position;
+            ray.direction = GameObject.FindGameObjectWithTag("Player").transform.forward;
+            //Debug.DrawRay(ray.origin, ray.direction * 75f, Color.red, 3f);
+            RaycastHit hit;
+            shotsFired++;
+            if (Physics.Raycast(ray, out hit, 75.0f))
+            {
+                if (hit.transform.tag == "heldTarget")
+                {
+                    while (Input.GetMouseButtonDown(1) && GameObject.FindGameObjectWithTag("heldTarget") != null)
+                    {
+                        //score++;
+                    }
+
+                }
+            }
+        }
+    }
+
     private void mouseLook()
     {
         //Mouse Look
