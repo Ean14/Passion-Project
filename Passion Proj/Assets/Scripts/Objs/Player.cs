@@ -83,7 +83,7 @@ public class Player : MonoBehaviour
                 {
                    while(Input.GetMouseButtonDown(1) && GameObject.FindGameObjectWithTag("heldTarget") != null)
                     {
-                        score++;
+                        //score++;
                     }
 
                 }
