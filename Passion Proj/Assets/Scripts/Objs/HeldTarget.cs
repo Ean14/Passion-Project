@@ -7,6 +7,7 @@ public class HeldTarget : MonoBehaviour
     //Instance
     public static int heldScoreToAdd;
     public static float lifeTime = 0f;
+    public static float destroyTimer;
     //Other Objs
     public static GameObject scoreDesc;
 
@@ -27,12 +28,11 @@ public class HeldTarget : MonoBehaviour
 
     public static void manualDestroy()
     {
-        
         //Debug.Log("Score Updated");
         ScoreKeeper.noteHits++;
         ScoreKeeper.combo++;
         //GameObject textObj = GameObject.FindGameObjectWithTag("ScoreDesc");
         //Debug.Log("I'm destroying the target");
-        Destroy(GameObject.FindGameObjectWithTag("Target"));
+        Destroy(GameObject.FindGameObjectWithTag("HeldTarget"));
     }
 }

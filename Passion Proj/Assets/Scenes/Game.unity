@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 584458387}
-  startTimer: {fileID: 0}
+  startTimer: {fileID: 1459362557}
   field: {fileID: 1676784391}
 --- !u!4 &949829153 stripped
 Transform:
@@ -3154,7 +3154,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 949829149}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: resume
+        m_MethodName: resume1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3712,6 +3712,7 @@ MonoBehaviour:
   startTimer: {fileID: 1459362557}
   targetPrefab: {fileID: 7351335477012750815, guid: 9118a21562e64414698b2f4c6ada2beb, type: 3}
   counterPrefab: {fileID: 2547237397112958723, guid: 7b25d6772d89b1549a0667d42dbfd3a8, type: 3}
+  heldPrefab: {fileID: 0}
   spawnCooldown: 0.5
   timeFromSpawn: 0
   bloom: 0

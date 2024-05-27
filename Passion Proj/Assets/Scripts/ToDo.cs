@@ -21,6 +21,7 @@ public class ToDo : MonoBehaviour
          * Fix Score Desc
          * Fix Click&Hover sounds
          * Fix Countdown after unpausing
+         * Fix Sensivitity
         */
     }
 

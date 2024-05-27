@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1218190\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\ui\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1218190\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\ui\\songselect2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\songselect2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\ui\\songselect2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\songselect2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|c:\\users\\1218190\\documents\\github\\passion-project\\passion proj\\assets\\scripts\\objs\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\scorekeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\scorekeeper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\counter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\ui\\playmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\assets\\scripts\\objs\\heldtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F772C23D-B21F-1D9F-3432-3E41ECD531B1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objs\\heldtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,66 +50,116 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScoreKeeper.cs",
-              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\ScoreKeeper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\ScoreKeeper.cs",
-              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\ScoreKeeper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objs\\ScoreKeeper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwA0AAAAZAAAA",
+              "DocumentIndex": 2,
+              "Title": "SongSelect2.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\SongSelect2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SongSelect2.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\SongSelect2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\SongSelect2.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwC8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T17:56:06.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\Player.cs",
-              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Objs\\Player.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAuwGAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T17:27:03.927Z",
+              "WhenOpened": "2024-05-27T17:23:57.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Spawner.cs",
               "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\Spawner.cs",
               "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Objs\\Spawner.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowGEAAAAzAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswCgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T17:20:31.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\ToDo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ToDo.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\ToDo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ToDo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:09:52.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pause.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\Pause.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Pause.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\Pause.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Pause.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:01:36.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Counter.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Counter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\Counter.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Counter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objs\\Counter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:48:31.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HeldTarget.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\HeldTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\HeldTarget.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\HeldTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objs\\HeldTarget.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:41:58.68Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Target.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Target.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\Target.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Target.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objs\\Target.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:41:43.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objs\\Player.cs",
+              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\Objs\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objs\\Player.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAcwE4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:27:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "playMusic.cs",
               "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\playMusic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\playMusic.cs",
               "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\playMusic.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\playMusic.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwDcAAABAAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAwwH0AAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T17:20:28.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SongSelect2.cs",
-              "DocumentMoniker": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\SongSelect2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SongSelect2.cs",
-              "ToolTip": "C:\\Users\\1218190\\Documents\\GitHub\\Passion-Project\\Passion Proj\\Assets\\Scripts\\UI\\SongSelect2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\SongSelect2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T17:10:06.72Z",
-              "EditorCaption": ""
             }
           ]
         }

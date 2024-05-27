@@ -21,7 +21,7 @@ public class Pause : MonoBehaviour
             
             if (isPaused)
             {
-                resume();
+                resume1();
             }
             else
             {
@@ -29,21 +29,21 @@ public class Pause : MonoBehaviour
             }
         }
         
-        setSens();
+        //setSens();
         
-        Debug.Log(field.GetComponent<InputField>().text);
+        //Debug.Log(field.GetComponent<InputField>().text);
     }
     
     public void setSens()
     {
-        Player.speedH = float.Parse(field.GetComponent<InputField>().text);
-        Player.speedV = float.Parse(field.GetComponent<InputField>().text);
+        //Player.speedH = float.Parse(field.GetComponent<InputField>().text);
+        //Player.speedV = float.Parse(field.GetComponent<InputField>().text);
         
-        field.GetComponent<InputField>().text = ""+Player.speedV;
+        //field.GetComponent<InputField>().text = ""+Player.speedV;
 
     }
     
-    public void resume()
+    public void resume1()
     {
         /*
         startTimer.text = "3";
