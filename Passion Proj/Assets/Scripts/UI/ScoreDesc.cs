@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ScoreDesc : MonoBehaviour
 {
     public float timeToDestroy = 0.5f;
-    private int scoreToAdd;
+    public static int scoreToAdd;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,10 @@ public class ScoreDesc : MonoBehaviour
         else if (scoreToAdd >= 1)
         {
             GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Nice";
+        }
+        else if (scoreToAdd <= 0)
+        {
+            GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Too early";
         }
         Destroy(GameObject.FindGameObjectWithTag("Target"));
     }

@@ -68,6 +68,13 @@ public class Player : MonoBehaviour
                     GameObject targetHit = hit.collider.gameObject;
                     GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x+0.15f, targetHit.transform.position.y+0.005f), Quaternion.identity);
                 }
+                if (hit.transform.tag == "Counter")
+                {
+                    Destroy(hit.collider.gameObject);
+                    GameObject targetHit = hit.collider.gameObject;
+                    GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x + 0.15f, targetHit.transform.position.y + 0.005f), Quaternion.identity);
+                    ScoreDesc.scoreToAdd = 0;
+                }
             }
         }
     }

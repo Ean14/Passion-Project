@@ -46,8 +46,8 @@ public class Pause : MonoBehaviour
 
     public void setSens()
     {
-        Player.speedH = float.Parse(field.GetComponent<TMP_InputField>().text);
-        Player.speedV = float.Parse(field.GetComponent<TMP_InputField>().text);
+        Player.speedH = float.Parse(field.GetComponent<TMP_InputField>().text)*0.01f;
+        Player.speedV = float.Parse(field.GetComponent<TMP_InputField>().text)*0.01f;
 
         field.GetComponent<TMP_InputField>().text = ""+Player.speedV;
 

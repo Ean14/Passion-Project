@@ -181,8 +181,9 @@ void Update()
             int[] lengths = new int[times.Length];
             for (int i = 0;i<times.Length;i++)
             {
-
+                lengths[i] = times[i].Length;
             }
+            Array.Sort(lengths);
             //Debug.Log(lengths);
             for (int i = 0; i < songNames.Length; i++)
             {
@@ -191,7 +192,7 @@ void Update()
                 {
                     Debug.Log(songLengths[key]);
                     Debug.Log(times[i]);
-                    if (songLengths[key] == times[i].Length)
+                    if (songLengths[key] == lengths[i])
                     {
                         songNames[i] = key;
                         //Debug.Log(songNames[i]);
