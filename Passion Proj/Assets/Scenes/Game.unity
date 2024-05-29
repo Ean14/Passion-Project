@@ -2008,7 +2008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 584458387}
   startTimer: {fileID: 1459362557}
-  field: {fileID: 1676784391}
+  field: {fileID: 1077524914}
+  sensField: {fileID: 0}
 --- !u!4 &949829153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5561827094530680781, guid: 24ea06b44a93e5141bd0ca7dff9d7d89, type: 3}
@@ -2032,7 +2033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1077524915
 RectTransform:
   m_ObjectHideFlags: 0

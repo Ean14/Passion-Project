@@ -18,10 +18,8 @@ public class ToDo : MonoBehaviour
            make a hashmap for the "current" var and song names)
          * Vfx 
          *  Tell which beats need vfx by hardcoding. Play animation when hit???
-         * Fix Score Desc
          * Fix Click&Hover sounds
-         * Fix Countdown after unpausing
-         * Fix Sensivitity
+         * Fix Sensivitity (float)
         */
     }
 

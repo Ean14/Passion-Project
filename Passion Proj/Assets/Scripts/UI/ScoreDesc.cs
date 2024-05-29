@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class ScoreDesc : MonoBehaviour
 {
     public float timeToDestroy = 0.5f;
@@ -13,15 +13,15 @@ public class ScoreDesc : MonoBehaviour
         Debug.Log("transferred");
         if (scoreToAdd >= 475)
         {
-            this.GetComponent<TextMesh>().text = "Perfect";
+            GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Perfect";
         }
         else if (scoreToAdd >= 400)
         {
-            this.GetComponent<TextMesh>().text = "Great";
+            GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Great";
         }
         else if (scoreToAdd >= 1)
         {
-            this.GetComponent<TextMesh>().text = "Nice";
+            GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Nice";
         }
         Destroy(GameObject.FindGameObjectWithTag("Target"));
     }
