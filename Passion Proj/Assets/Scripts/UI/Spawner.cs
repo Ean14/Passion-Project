@@ -22,6 +22,7 @@ public class Spawner : MonoBehaviour
     public float spawnCooldown = 0.5f;
     public float timeFromSpawn = 0f;
     public float bloom = 0;
+    public float timeSinceLoad;
     public static Dictionary<string, float[]> songTimes = new Dictionary<string, float[]>();
 
     // Start is called before the first frame update
@@ -33,6 +34,16 @@ public class Spawner : MonoBehaviour
 
 
     }
+
+    private void Update()
+    {
+        if (!Pause.isPaused)
+        {
+            timeSinceLoad += Time.deltaTime;
+        }
+        Debug.Log(timeSinceLoad);
+    }
+
     IEnumerator start()
     {
         yield return new WaitForSeconds(0.00f);
@@ -78,12 +89,12 @@ public class Spawner : MonoBehaviour
         totalNotes = spawnTimes.Length;
         for (int i = 0; i < spawnTimes.Length; i++)
         {
-            yield return new WaitUntil(() => (float)Time.timeSinceLevelLoadAsDouble >= spawnTimes[i]);
+            yield return new WaitUntil(() => timeSinceLoad >= spawnTimes[i]);
             //Debug.Log(spawnTimes[i]);
 
             for (int j = i; j < spawnTimes.Length; j++)
             {
-                if (spawnTimes[j] < (float)Time.timeSinceLevelLoadAsDouble + 3.0f)
+                if (spawnTimes[j] < timeSinceLoad + 3.0f)
                 { bloom += 0.025f; }
                 else
                 { break; }
@@ -101,12 +112,12 @@ public class Spawner : MonoBehaviour
     {
         for (int i = 0; i < spawnTimes.Length; i += 2)
         {
-            yield return new WaitUntil(() => (float)Time.timeSinceLevelLoadAsDouble >= spawnTimes[i]);
+            yield return new WaitUntil(() => timeSinceLoad >= spawnTimes[i]);
             //Debug.Log(spawnTimes[i]);
 
             for (int j = i; j < spawnTimes.Length; j++)
             {
-                if (spawnTimes[j] < (float)Time.timeSinceLevelLoadAsDouble + 3.0f)
+                if (spawnTimes[j] < timeSinceLoad + 3.0f)
                 { bloom += 0.025f; }
                 else
                 { break; }

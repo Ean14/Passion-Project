@@ -14,6 +14,7 @@ public class Pause : MonoBehaviour
     public static float lifeTime = 2f;
     public static float destroyTimer = 0f;
     public TMP_InputField sensField;
+    public bool isCountingDown = false;
     //public float sens = 0.5f;
 
     private void Start()
@@ -58,31 +59,53 @@ public class Pause : MonoBehaviour
     public void resume1()
     {
         StartCoroutine(pause2());
-
-        // StartCoroutine(countdown());
+        
         Time.timeScale = 1f;
-        isPaused = false;
+        //isPaused = false;
         pauseUI.SetActive(false);
 
         Cursor.lockState = CursorLockMode.Locked;
+        
     }
     IEnumerator pause2()
     {
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<AudioSource>().Pause();
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>().Pause();
-
-
-        startTimer.text = "3";
-        yield return new WaitForSeconds(0.5f);
-        startTimer.text = "2";
-        yield return new WaitForSeconds(0.5f);
-        startTimer.text = "1";
-        yield return new WaitForSeconds(0.5f);
-        startTimer.text = "Go!";
-        yield return new WaitForSeconds(0.5f);
-        startTimer.text = "";
+        //Problem with this is that if we set timescale to 0, the countdown doesn't count down, but if we have it as 1, the notes spawn
+        //Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.Locked;
+        if (!isCountingDown)
+        {
+            isCountingDown = true;
+            startTimer.text = "3";
+            yield return new WaitForSeconds(0.5f);
+            startTimer.text = "2";
+            yield return new WaitForSeconds(0.5f);
+            startTimer.text = "1";
+            yield return new WaitForSeconds(0.5f);
+            startTimer.text = "Go!";
+            yield return new WaitForSeconds(0.5f);
+            startTimer.text = "";
+            isCountingDown = false;
+        }
+        /*
+        if (isCountingDown)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                StopCoroutine(pause2());
+                isPaused = true;
+                isCountingDown = false;
+            }
+        }
+        */
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<AudioSource>().Play();
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>().Play();
+        Time.timeScale = 1f;
+        isPaused = false;
+        pauseUI.SetActive(false);
+
+        
     }
 
     public void pause()
