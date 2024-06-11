@@ -10,8 +10,8 @@ public class Player : MonoBehaviour
     //Instance
     public static float accuracy;
     //Mouse Look
-    public static float speedH = 0.5f;
-    public static float speedV = 0.5f;
+    public static float speedH = 40f;
+    public static float speedV = 40f;
     public float yaw = 0.0f;
     public float pitch = 0.0f;
     //Score
@@ -70,8 +70,8 @@ public class Player : MonoBehaviour
                 }
                 if (hit.transform.tag == "Counter")
                 {
-                    Destroy(hit.collider.gameObject);
                     GameObject targetHit = hit.collider.gameObject;
+                    Destroy(targetHit);
                     GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x + 0.15f, targetHit.transform.position.y + 0.005f), Quaternion.identity);
                     ScoreDesc.scoreToAdd = 0;
                 }
@@ -106,8 +106,8 @@ public class Player : MonoBehaviour
     private void mouseLook()
     {
         //Mouse Look
-        yaw += speedH * Input.GetAxis("Mouse X");
-        pitch -= speedV * Input.GetAxis("Mouse Y");
+        yaw += speedH*0.01f * Input.GetAxis("Mouse X");
+        pitch -= speedV*0.01f * Input.GetAxis("Mouse Y");
         transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
     }
 }

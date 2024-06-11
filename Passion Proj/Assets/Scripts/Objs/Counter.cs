@@ -6,6 +6,7 @@ public class Counter : MonoBehaviour
 {
     //Prefabs
     public GameObject targetPrefab;
+    public GameObject heldPrefab;
     //Other Scripts
     //Objects
     
@@ -15,6 +16,7 @@ public class Counter : MonoBehaviour
     public Material noti;
     //Instance
     private bool isPri = false;
+    public static bool isHeld = false;
     public float destroyTimer = 3f;
     //private int notesInSecond = 0;
     private Vector3 spawnPos = new Vector3(0.0f, 0.0f, 0.0f);
@@ -53,18 +55,35 @@ public class Counter : MonoBehaviour
             destroyTimer -= Time.deltaTime;
             if (destroyTimer <= 0)
             {
-                if (GameObject.FindGameObjectWithTag("Target") != null)
-                {
-                    //Debug.Log("I'm destroying the Target");
-                    Target.naturalDestroy();
-                }
+                
                 //Debug.Log("Spawn a target");
-                Instantiate(targetPrefab, transform.position, Quaternion.AngleAxis(90, Vector3.right));
+                
                 //Target.lifeTime = 0;
+                if (!isHeld)
+                {
+
+                    if (GameObject.FindGameObjectWithTag("Target") != null)
+                    {
+                        //Debug.Log("I'm destroying the Target");
+                        Target.naturalDestroy();
+                    }
+                    Instantiate(targetPrefab, transform.position, Quaternion.AngleAxis(90, Vector3.right));
+                }
+                /*
+                else
+                {
+                    if (GameObject.FindGameObjectWithTag("Counter") != null)
+                    {
+                        //Debug.Log("I'm destroying the Target");
+                        Destroy(GameObject.FindGameObjectWithTag("Counter"));
+                    }
+                    Instantiate(heldPrefab, transform.position, Quaternion.AngleAxis(90, Vector3.right));
+                }
+                */
                 ScoreKeeper.bloom += 0.01f;
                 Destroy(this.gameObject);
-
             }
+            
         }
         
         

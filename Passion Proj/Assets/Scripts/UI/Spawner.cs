@@ -24,6 +24,7 @@ public class Spawner : MonoBehaviour
     public float bloom = 0;
     public float timeSinceLoad;
     public static Dictionary<string, float[]> songTimes = new Dictionary<string, float[]>();
+    public static Dictionary<string, float[]> heldTimes = new Dictionary<string, float[]>();
 
     // Start is called before the first frame update
     void Start()
@@ -41,7 +42,7 @@ public class Spawner : MonoBehaviour
         {
             timeSinceLoad += Time.deltaTime;
         }
-        Debug.Log(timeSinceLoad);
+        //Debug.Log(timeSinceLoad);
     }
 
     IEnumerator start()
@@ -68,7 +69,13 @@ public class Spawner : MonoBehaviour
         songTimes.Add("Dreams Pt II by Lost Sky and Sara Skinner", SongSelect2.times[10]);
         songTimes.Add("Love is Gone by SLANDER ft. Dylan Matthew (Acoustic)", SongSelect2.times[11]);
         songTimes.Add("The Phoenix by Fall Out Boys", SongSelect2.times[12]);
+
+
+        //heldTimes.Add("Circles by EDEN", SongSelect2.heldTimes[0]);
+
+
         StartCoroutine(spawnCounter(songTimes[SongSelect2.theSong]));
+        //StartCoroutine(spawnHeld(heldTimes[SongSelect2.theSong]));
     }
 
     IEnumerator countdown()
@@ -102,6 +109,7 @@ public class Spawner : MonoBehaviour
             //Debug.Log(bloom);
             spawnPos = new Vector3(Random.Range(-1.4f - bloom, 1.4f + bloom), Random.Range(-1.4f - bloom, 1.4f + bloom), 0.0f);
             GameObject target = Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            //Counter.isHeld = false;
             bloom = 0;
         }
         yield return new WaitForSeconds(5);
@@ -124,8 +132,9 @@ public class Spawner : MonoBehaviour
             }
             //Debug.Log(bloom);
             spawnPos = new Vector3(Random.Range(-1.4f - bloom, 1.4f + bloom), Random.Range(-1.4f - bloom, 1.4f + bloom), 0.0f);
-            GameObject heldTarget = Instantiate(heldPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
-            HeldTarget.destroyTimer = spawnTimes[i] - spawnTimes[i + 1];
+            GameObject heldTarget = Instantiate(counterPrefab, spawnPos, Quaternion.AngleAxis(90, Vector3.right));
+            //Counter.isHeld = true;
+            //HeldTarget.destroyTimer = spawnTimes[i] - spawnTimes[i + 1];
             bloom = 0;
         }
     }

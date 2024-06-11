@@ -1661,6 +1661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeldTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 4727184679393610582, guid: e658f1acf7df9f040858e6d54618bdac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8249883289066834605, guid: e658f1acf7df9f040858e6d54618bdac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2095,6 +2099,7 @@ MonoBehaviour:
   startTimer: {fileID: 1459362557}
   field: {fileID: 1077524914}
   sensField: {fileID: 0}
+  isCountingDown: 0
 --- !u!4 &949829153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5561827094530680781, guid: 24ea06b44a93e5141bd0ca7dff9d7d89, type: 3}
@@ -2740,7 +2745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -8}
+  m_AnchoredPosition: {x: -0.0000076294, y: 153.06}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459362557
@@ -2797,7 +2802,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

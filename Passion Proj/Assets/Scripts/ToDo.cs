@@ -17,8 +17,6 @@ public class ToDo : MonoBehaviour
          * Optimize initializing dictionaries
          * Vfx 
          *  Tell which beats need vfx by hardcoding. Play animation when hit???
-         * Fix Click&Hover sounds
-         * Fix Sensivitity (float)
         */
     }
 
