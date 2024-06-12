@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     //Score
     private int shotsFired = 0;
     private int shotsHit = 0;
+    public static int scoreToAdd;
     //Text
     public TextMeshProUGUI accuracyText;
     //Objs
@@ -63,17 +64,21 @@ public class Player : MonoBehaviour
                 if (hit.transform.tag == "Target")
                 {
                     shotsHit++;
-                    Debug.Log("I'm destroying the Target");
+                    //Debug.Log("I'm destroying the Target");
                     Target.manualDestroy();
+                    scoreToAdd = (int)(500 - ((Target.lifeTime) * 100));
+                    ScoreKeeper.score += (int)((1 + (ScoreKeeper.combo * 0.05)) * scoreToAdd);
                     GameObject targetHit = hit.collider.gameObject;
+                    //ScoreDesc.scoreToAdd = scoreToAdd;
                     GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x+0.15f, targetHit.transform.position.y+0.005f), Quaternion.identity);
                 }
                 if (hit.transform.tag == "Counter")
                 {
                     GameObject targetHit = hit.collider.gameObject;
                     Destroy(targetHit);
+                    scoreToAdd = 0;
+                    //ScoreDesc.scoreToAdd = 0;
                     GameObject scoreDesc1 = Instantiate(scoreDesc, new Vector2(targetHit.transform.position.x + 0.15f, targetHit.transform.position.y + 0.005f), Quaternion.identity);
-                    ScoreDesc.scoreToAdd = 0;
                 }
             }
         }

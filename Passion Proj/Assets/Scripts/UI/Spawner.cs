@@ -40,7 +40,7 @@ public class Spawner : MonoBehaviour
         {
             timeSinceLoad += Time.deltaTime;
         }
-        Debug.Log(timeSinceLoad);
+        //Debug.Log(timeSinceLoad);
     }
     IEnumerator start()
     {

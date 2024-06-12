@@ -9,8 +9,9 @@ public class ScoreDesc : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreToAdd = Target.scoreToAdd;
-        Debug.Log("transferred");
+        scoreToAdd = Player.scoreToAdd;
+        //Debug.Log("transferred");
+        Debug.Log(scoreToAdd);
         if (scoreToAdd >= 475)
         {
             GameObject.FindGameObjectWithTag("ScoreDesc").GetComponent<TextMesh>().text = "Perfect";
