@@ -71,8 +71,6 @@ public class Pause : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<AudioSource>().Pause();
         GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>().Pause();
-        //Problem with this is that if we set timescale to 0, the countdown doesn't count down, but if we have it as 1, the notes spawn
-        //Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.Locked;
         if (!isCountingDown)
         {
@@ -87,6 +85,12 @@ public class Pause : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             startTimer.text = "";
             isCountingDown = false;
+
+            GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<AudioSource>().Play();
+            GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>().Play();
+            Time.timeScale = 1f;
+            isPaused = false;
+            pauseUI.SetActive(false);
         }
         /*
         if (isCountingDown)
@@ -99,11 +103,8 @@ public class Pause : MonoBehaviour
             }
         }
         */
-        GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<AudioSource>().Play();
-        GameObject.FindGameObjectWithTag("VideoPlayer").GetComponent<VideoPlayer>().Play();
-        Time.timeScale = 1f;
-        isPaused = false;
-        pauseUI.SetActive(false);
+        
+
 
         
     }
