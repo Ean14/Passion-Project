@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
     public float spawnCooldown = 0.5f;
     public float timeFromSpawn = 0f;
     public float bloom = 0;
-    public float timeSinceLoad;
+    public static float timeSinceLoad;
     public static Dictionary<string, float[]> songTimes = new Dictionary<string, float[]>();
 
     // Start is called before the first frame update
@@ -31,11 +31,10 @@ public class Spawner : MonoBehaviour
         canvasTrans = GameObject.FindGameObjectWithTag("CrosshairUI").GetComponent<Transform>();
         //spawnPos = new Vector3(Random.Range(-1.4f - ScoreKeeper.bloom, 1.4f + ScoreKeeper.bloom), Random.Range(-1.4f - ScoreKeeper.bloom, 1.4f + ScoreKeeper.bloom), 0.0f);
         StartCoroutine(start());
-
+        timeSinceLoad = 0;
 
     }
-
-    private void Update()
+    void Update()
     {
         if (!Pause.isPaused)
         {
@@ -43,7 +42,6 @@ public class Spawner : MonoBehaviour
         }
         Debug.Log(timeSinceLoad);
     }
-
     IEnumerator start()
     {
         yield return new WaitForSeconds(0.00f);
@@ -89,12 +87,12 @@ public class Spawner : MonoBehaviour
         totalNotes = spawnTimes.Length;
         for (int i = 0; i < spawnTimes.Length; i++)
         {
-            yield return new WaitUntil(() => timeSinceLoad >= spawnTimes[i]);
+            yield return new WaitUntil(() => (float)timeSinceLoad >= spawnTimes[i]);
             //Debug.Log(spawnTimes[i]);
 
             for (int j = i; j < spawnTimes.Length; j++)
             {
-                if (spawnTimes[j] < timeSinceLoad + 3.0f)
+                if (spawnTimes[j] < (float)timeSinceLoad + 3.0f)
                 { bloom += 0.025f; }
                 else
                 { break; }
@@ -112,12 +110,12 @@ public class Spawner : MonoBehaviour
     {
         for (int i = 0; i < spawnTimes.Length; i += 2)
         {
-            yield return new WaitUntil(() => timeSinceLoad >= spawnTimes[i]);
+            yield return new WaitUntil(() => (float)Time.timeSinceLevelLoadAsDouble >= spawnTimes[i]);
             //Debug.Log(spawnTimes[i]);
 
             for (int j = i; j < spawnTimes.Length; j++)
             {
-                if (spawnTimes[j] < timeSinceLoad + 3.0f)
+                if (spawnTimes[j] < (float)Time.timeSinceLevelLoadAsDouble + 3.0f)
                 { bloom += 0.025f; }
                 else
                 { break; }
