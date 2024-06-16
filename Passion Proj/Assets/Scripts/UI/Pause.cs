@@ -60,7 +60,7 @@ public class Pause : MonoBehaviour
     {
         StartCoroutine(pause2());
         
-        Time.timeScale = 1f;
+        Time.timeScale = 0.00000000001f;
         //isPaused = false;
         pauseUI.SetActive(false);
 
@@ -76,13 +76,13 @@ public class Pause : MonoBehaviour
         {
             isCountingDown = true;
             startTimer.text = "3";
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.000000000005f);
             startTimer.text = "2";
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.000000000005f);
             startTimer.text = "1";
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.000000000005f);
             startTimer.text = "Go!";
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.000000000005f);
             startTimer.text = "";
             isCountingDown = false;
 

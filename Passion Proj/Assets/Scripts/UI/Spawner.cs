@@ -87,7 +87,7 @@ public class Spawner : MonoBehaviour
         totalNotes = spawnTimes.Length;
         for (int i = 0; i < spawnTimes.Length; i++)
         {
-            yield return new WaitUntil(() => (float)timeSinceLoad >= spawnTimes[i]);
+            yield return new WaitUntil(() => (float)Time.timeSinceLevelLoadAsDouble >= spawnTimes[i]);
             //Debug.Log(spawnTimes[i]);
 
             for (int j = i; j < spawnTimes.Length; j++)
