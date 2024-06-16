@@ -201,28 +201,28 @@ public class SongSelect2 : MonoBehaviour
     {
         if (drop.value == 0)
         {
-            Array.Sort(allSongs);
+            Array.Sort(songNames);
             current = 0;
             //Debug.Log(songNames);
         }
         else if (drop.value == 1)
         {
-            Array.Sort(allSongs);
-            string[] artname = new string[allSongs.Length];
-            string[] artistSong = new string[allSongs.Length];
-            for (int i = 0; i < allSongs.Length; i++)
+            Array.Sort(songNames);
+            string[] artname = new string[songNames.Length];
+            string[] artistSong = new string[songNames.Length];
+            for (int i = 0; i < songNames.Length; i++)
             {
-                artname[i] = allSongs[i].Substring(allSongs[i].IndexOf(" by ") + 4);
-                artistSong[i] = allSongs[i].Substring(allSongs[i].IndexOf(" by ") + 4) + allSongs[i].Substring(0, allSongs[i].IndexOf(" by ") + 4);
+                artname[i] = songNames[i].Substring(songNames[i].IndexOf(" by ") + 4);
+                artistSong[i] = songNames[i].Substring(songNames[i].IndexOf(" by ") + 4) + songNames[i].Substring(0, songNames[i].IndexOf(" by ") + 4);
                 //Debug.Log(artistSong[i]);
                 //Debug.Log(artname[i]);
             }
-            string[] list = new string[allSongs.Length];
+            string[] list = new string[songNames.Length];
 
             Array.Sort(artistSong);
             Array.Sort(artname);
 
-            for (int i = 0; i < allSongs.Length; i++)
+            for (int i = 0; i < songNames.Length; i++)
             {
                 //Eg. Circles by EDEN -> EDENCircles by 
                 songNames[i] = artistSong[i].Substring(artname[i].Length) + artname[i];
