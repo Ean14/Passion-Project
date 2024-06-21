@@ -59,13 +59,13 @@ public class Spawner : MonoBehaviour
         songTimes.Add("Million Days by SABAI", SongSelect2.times[3]);
         songTimes.Add("Me Plus You by SABAI", SongSelect2.times[4]);
         songTimes.Add("Broken Glass by SABAI", SongSelect2.times[5]);
-        songTimes.Add("Nevada by Vicetonel", SongSelect2.times[6]);
+        songTimes.Add("Nevada by Vicetone", SongSelect2.times[6]);
         songTimes.Add("How to Stay Aligned by Cearul", SongSelect2.times[7]);
         songTimes.Add("XO by EDEN", SongSelect2.times[8]);
         songTimes.Add("Where We Started by Lost Sky and Jex", SongSelect2.times[9]);
         songTimes.Add("Dreams Pt II by Lost Sky and Sara Skinner", SongSelect2.times[10]);
         songTimes.Add("Love is Gone by SLANDER ft. Dylan Matthew (Acoustic)", SongSelect2.times[11]);
-        songTimes.Add("The Phoenix by Fall Out Boys", SongSelect2.times[12]);
+        songTimes.Add("The Phoenix by Fall Out Boy", SongSelect2.times[12]);
         StartCoroutine(spawnCounter(songTimes[SongSelect2.theSong]));
     }
 
