@@ -2,7 +2,7 @@ How to edit?
 
 1. https://github.com/Ean14/Passion-Project
 2. Install a unity editor from https://unity.com/download
-3. Install GitHub desktop
+3. Install GitHub desktop to pull all changes added to the project
 4. Download the latest release from the release tab on the right of the github page
 5. Extract the files into a locatable folder
 6. In top right of Unity Hub, add project -> go to the folder where the project is stored -> open
