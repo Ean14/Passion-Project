@@ -1,5 +1,6 @@
 How to edit?
 
+https://github.com/Ean14/Passion-Project
 Install a unity editor from https://unity.com/download
 Download the latest release from the release tab on the right of the github page
 Extract the files into a locatable folder
