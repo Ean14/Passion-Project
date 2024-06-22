@@ -6,7 +6,7 @@ How to edit?
 4. Extract the files into a locatable folder
 5. In top right of Unity Hub, add project -> go to the folder where the project is stored -> open
 6. Open the project with Unity Hub
-7. Double click on scripts to open them. Please refer to the slides https://www.canva.com/design/DAGHYXk5YkM/qlPmdku1CR_EIZMqe92tVQ/edit to learn a little about the objects.
+7. Double click on scripts to open them. Please refer to the slides https://www.canva.com/design/DAGH3qMeivY/z6rLLlHQCU2XKtVrlBpg2A/edit?utm_content=DAGH3qMeivY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton to learn a little about the objects.
 
 How to play?
 
