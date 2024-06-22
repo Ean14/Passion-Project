@@ -16,3 +16,4 @@ How to play?
 5. Run the .exe file named "RhythmGame3d"
 6. Done!
 
+The objective is to click the blue note which spawns to the beats/lyrics of the song. Clicking too early or too late will result in a penalty!
